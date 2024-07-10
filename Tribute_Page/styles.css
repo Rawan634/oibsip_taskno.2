@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFD700; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000; 
+    color: #FFD700; 
+    padding: 1em;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile img {
+    width: 200px; 
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.bio {
+    max-width: calc(100% - 220px); 
+    text-align: left;
+    padding-left: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: cursive; 
+}
+
+p {
+    font-size: 16px;
+    color: #EE4B2B; 
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 20px;
+    color: #333; 
+    margin-bottom: 15px;
+    font-weight: bold; 
+    font-family: Copperplate, 'Copperplate Gothic', fantasy; 
+}
+
+.work {
+    display: inline-block;
+    width: 30%; 
+    margin-right: 2%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.work img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work p {
+    font-style: italic;
+    color: #555; 
+    margin-top: 5px;
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
+}
+
+footer {
+    text-align: left;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff; 
+    position: fixed;
+    bottom: 0;
+    width: 50%; 
+    max-width: 340px;
+    box-sizing: border-box; 
+}
