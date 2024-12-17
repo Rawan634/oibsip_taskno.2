@@ -83,14 +83,14 @@ h2 {
     font-weight: bold; 
 }
 
+
 footer {
-    text-align: left;
+    text-align: center;
     padding: 10px;
     background-color: #000000;
     color: #fff; 
     position: fixed;
     bottom: 0;
     width: 50%; 
-    max-width: 340px;
-    box-sizing: border-box; 
+    max-width: 250px;
 }
